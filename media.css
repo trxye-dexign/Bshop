@@ -18,19 +18,17 @@
 		border:3px solid white;
 	}
 	.top-wrapper-bottom {
-		background-color: transparent;
+		background-color: white;
 		position:absolute;
 		top:375px;
 		left:40px;
-		padding:0 0 0 0;
+		padding:0 4px 0 0;
 		width:80%;
 		margin:0 auto;
+		border-radius: 30px;
 	}
 	.motto h1 {
 		font-size: 28px;
-		background-color:white;
-		border-radius: 30px;
-		padding-right: 2px;
 	}
 	.menu-wrapper {
 		display: none;
@@ -124,4 +122,3 @@
 		padding-top:40px;
 	}
 }
-
