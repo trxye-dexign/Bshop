@@ -1,0 +1,176 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+.clear{
+	clear: left;
+}
+.container {
+	margin:0 auto;
+	width:1080px;
+}
+.top-wrapper {
+	height: 710px;
+	margin-bottom: 250px;
+	width:100%;
+}
+.top-wrapper-image {
+	height:710px;
+	background-image: url(beers-1283566_1280.jpg);
+  margin-left: 25%;
+  background-size: cover;
+	border-bottom-left-radius: 100px;
+	position: relative;
+}
+.absolute {
+	position:absolute;
+	top:10px;
+	left: 90px;
+}
+li,a {
+	text-decoration: none;
+	list-style: none;
+}
+.menu-wrapper a {
+	color: black;
+	font-family: 'Catamaran', sans-serif;
+	display: inline-block;
+	letter-spacing: 0.06em;
+	font-weight: 600;
+	transition: all .3s;
+	margin-bottom: 20px;
+}
+.menu-wrapper a:hover {
+	opacity: 0.5;
+}
+#logo a {
+	color:white;
+	background-color: black;
+	padding:10px 20px;
+	border-radius: 7px;
+	font-size: 65px;
+	font-family: 'Catamaran', sans-serif;
+}
+#logo {
+	padding-top: 60px;
+	padding-bottom: 70px;
+}
+.top-wrapper-bottom {
+	margin-top:85px;
+	position: absolute;
+	top:420px;
+	left: 90px;
+	background-color: white;
+	border-radius: 45px;
+	padding:8px 40px 20px 0;
+}
+.motto h1 {
+	font-size: 45px;
+	font-family: serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.top-wrapper-bottom {
+	letter-spacing: 0.5px;
+}
+.motto {
+	padding-bottom: 20px;
+}
+.top-wrapper-bottom p {
+	font-size: 13px;
+	letter-spacing: 3px;
+}
+.contact-btn {
+	color: black;
+	font-family: 'Catamaran', sans-serif;
+	position: absolute;
+	top: 40px;
+	right: 40px;
+	display: block;
+	width: 180px;
+	text-align: center;
+	font-weight: 600;
+	font-size: 15px;
+	border: 2px solid #111;
+	border-radius: 4px;
+	line-height: 50px;
+	transition: all .3s;
+}
+.contact-btn:hover {
+	color: white;
+	background-color: black;
+}
+.news-wrapper{
+	display:flex;
+	height:410px;
+	width:100%;
+}
+.news-image {
+	width:50%
+}
+.news-image img {
+	border-top-right-radius: 100px;
+	width:100%;
+}
+.news-contents {
+	width:50%;
+	box-sizing:border-box;
+	padding-top:100px;
+	padding-left:150px;
+}
+.eng {
+	font-size:30px;
+	font-weight:600;
+}
+.jap {
+	font-size:5px;
+}
+.news {
+	margin-top:50px;
+	font-size: 15px;
+}
+.news li {
+	width:70%;
+	display: inline-block;
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom:1px solid #d3d3d3;
+}
+.news a {
+	margin-left:25px;
+	color: black;
+	transition:all .3s;
+}
+.news a:hover{
+	opacity:0.5;
+}
+.more-btn {
+	display:block;
+	color:black;
+	font-weight:600;
+	margin-top:80px;
+}
+.footer {
+	text-align:center;
+	font-size:5px;
+	color:#36302d;
+	padding:150px 0 20px 0;
+}
+
+
+/* ボタン押した時 */
+.slide-menu-nav {
+	text-align: center;
+	box-sizing: border-box;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 95px 0 85px;
+	background-color: rgba(255,255,255,0.96);
+	z-index: 9000;
+	opacity: 0;
+	visibility: hidden;
+	transition: all .3s;
+	display:block;
+}
